@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "aniwrap"
+version = "1.0.0"
+description = "An Asynchronous API wrapper for My Anime List API."
+authors = ["thevenuz"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/thevenuz/aniwrap.py"
+repository = "https://github.com/thevenuz/aniwrap.py"
+packages = [{include = "aniwrap"},
+{ include = "aniwrap/py.typed" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+aiohttp = ">=3.8.4"
+attrs = ">=22"
+
+[tool.poetry.group.dev.dependencies]
+black = "==23.1.0"
+mike = "==1.1.2"
+mkdocs = "==1.4.2"
+mkdocs-autorefs = "==0.4.1"
+mkdocs-include-markdown-plugin = { version = "==4.0.4", python = "<3.12" }
+mkdocs-material = "==9.1.8"
+mkdocs-material-extensions = "==1.1.1"
+mkdocstrings =  { version = "==0.21.2", extras = ["python"] }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
