@@ -1,0 +1,50 @@
+site_name: aniwrap.py
+
+theme:
+  name: 'material'
+
+  palette:
+    primary: black
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins:
+  - include-markdown
+  - search
+  - autorefs
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            members_order: alphabetical
+            docstring_style: google
+            show_signature_annotations: true
+            separate_signature: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+  version:
+    provider: mike
+    default: latest
+
+nav:
+  - index.md
+  - Modules:
+      - reference\client.md
+      - reference\enums.md
+      - reference\models.md
+      - reference\result.md
+      - reference\serializer.md
+      - reference\services.md
