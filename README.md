@@ -73,6 +73,8 @@ if manga_list_result.is_success:
 
 if manga_list_result.is_error:
     error = manga_list_result.error
+
+await  user_client.close()
 ```
 
 You can find information on generating Client Id and user's access token used in the above examples on [MAL documentation](https://myanimelist.net/apiconfig/references/authorization).
