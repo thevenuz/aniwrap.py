@@ -79,7 +79,7 @@ class HttpService:
                 if r.status == 200:
                     return HttpSuccessResponse(r.status, "Success.", response)
 
-                return HttpErrorResponse(r.status, response.get("message"))
+                return HttpErrorResponse(r.status, response.get("error"))
 
         except Exception as e:
             return HttpErrorResponse(500, str(e))
