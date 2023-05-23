@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "aniwrap"
-version = "1.0.0"
+version = "1.0.1"
 description = "An Asynchronous API wrapper for My Anime List API."
 authors = ["thevenuz"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/thevenuz/aniwrap.py"
 repository = "https://github.com/thevenuz/aniwrap.py"
+documentation = "https://thevenuz.github.io/aniwrap.py/"
 packages = [{include = "aniwrap"},
 { include = "aniwrap/py.typed" }]
 
