@@ -40,11 +40,11 @@ extra:
     default: latest
 
 nav:
-  - index.md
+  - 'index.md'
   - Modules:
-      - reference\client.md
-      - reference\enums.md
-      - reference\models.md
-      - reference\result.md
-      - reference\serializer.md
-      - reference\services.md
+      - 'reference/client.md'
+      - 'reference/enums.md'
+      - 'reference/models.md'
+      - 'reference/result.md'
+      - 'reference/serializer.md'
+      - 'reference/services.md'
