@@ -1,4 +1,7 @@
-# aniwrap
+<div align="center">
+    <h1>aniwrap</h1>
+    <a href="https://pypi.org/project/aniwrap/"><img height="20" alt="PyPI version" src="https://img.shields.io/pypi/v/aniwrap"></a>
+</div>
 
 An asynchronous wrapper for the [MyAnimeList V2 API](https://myanimelist.net/apiconfig/references/api/v2).
 
