@@ -9,6 +9,10 @@
       
       
       
+        <link rel="prev" href="../enums/">
+      
+      
+        <link rel="next" href="../result/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.8">
@@ -205,14 +209,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
       
       
       
@@ -221,7 +227,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           Modules
@@ -234,8 +240,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../client.md" class="md-nav__link">
-        None
+      <a href="../client/" class="md-nav__link">
+        client
       </a>
     </li>
   
@@ -248,8 +254,1735 @@
   
   
     <li class="md-nav__item">
-      <a href="../enums.md" class="md-nav__link">
-        None
+      <a href="../enums/" class="md-nav__link">
+        enums
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          models
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        models
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models" class="md-nav__link">
+    models
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime" class="md-nav__link">
+    Anime
+  </a>
+  
+    <nav class="md-nav" aria-label="Anime">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.alternative_titles" class="md-nav__link">
+    alternative_titles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.average_episode_duration" class="md-nav__link">
+    average_episode_duration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.background" class="md-nav__link">
+    background
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.broadcast" class="md-nav__link">
+    broadcast
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.created_at" class="md-nav__link">
+    created_at
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.end_date" class="md-nav__link">
+    end_date
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.genres" class="md-nav__link">
+    genres
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.id" class="md-nav__link">
+    id
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.main_picture" class="md-nav__link">
+    main_picture
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.mean" class="md-nav__link">
+    mean
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.media_type" class="md-nav__link">
+    media_type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.nsfw" class="md-nav__link">
+    nsfw
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.num_episodes" class="md-nav__link">
+    num_episodes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.num_list_users" class="md-nav__link">
+    num_list_users
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.num_scoring_users" class="md-nav__link">
+    num_scoring_users
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.pictures" class="md-nav__link">
+    pictures
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.popularity" class="md-nav__link">
+    popularity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.rank" class="md-nav__link">
+    rank
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.rating" class="md-nav__link">
+    rating
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.recommendations" class="md-nav__link">
+    recommendations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.related_anime" class="md-nav__link">
+    related_anime
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.source" class="md-nav__link">
+    source
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.start_date" class="md-nav__link">
+    start_date
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.start_season" class="md-nav__link">
+    start_season
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.statistics" class="md-nav__link">
+    statistics
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.status" class="md-nav__link">
+    status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.studios" class="md-nav__link">
+    studios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.synopsis" class="md-nav__link">
+    synopsis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.title" class="md-nav__link">
+    title
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Anime.updated_at" class="md-nav__link">
+    updated_at
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeList" class="md-nav__link">
+    AnimeList
+  </a>
+  
+    <nav class="md-nav" aria-label="AnimeList">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeList.anime_data" class="md-nav__link">
+    anime_data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeList.list_status" class="md-nav__link">
+    list_status
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListStatus" class="md-nav__link">
+    AnimeListStatus
+  </a>
+  
+    <nav class="md-nav" aria-label="AnimeListStatus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListStatus.finish_date" class="md-nav__link">
+    finish_date
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListStatus.is_rewatching" class="md-nav__link">
+    is_rewatching
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListStatus.num_episodes_watched" class="md-nav__link">
+    num_episodes_watched
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListStatus.score" class="md-nav__link">
+    score
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListStatus.start_date" class="md-nav__link">
+    start_date
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListStatus.status" class="md-nav__link">
+    status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListStatus.updated_at" class="md-nav__link">
+    updated_at
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListUpdate" class="md-nav__link">
+    AnimeListUpdate
+  </a>
+  
+    <nav class="md-nav" aria-label="AnimeListUpdate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListUpdate.is_rewatching" class="md-nav__link">
+    is_rewatching
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListUpdate.num_episodes_watched" class="md-nav__link">
+    num_episodes_watched
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListUpdate.num_times_rewatched" class="md-nav__link">
+    num_times_rewatched
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListUpdate.priority" class="md-nav__link">
+    priority
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListUpdate.score" class="md-nav__link">
+    score
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListUpdate.status" class="md-nav__link">
+    status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeListUpdate.updated_at" class="md-nav__link">
+    updated_at
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeRanking" class="md-nav__link">
+    AnimeRanking
+  </a>
+  
+    <nav class="md-nav" aria-label="AnimeRanking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeRanking.anime_data" class="md-nav__link">
+    anime_data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeRanking.ranking" class="md-nav__link">
+    ranking
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeStatistics" class="md-nav__link">
+    AnimeStatistics
+  </a>
+  
+    <nav class="md-nav" aria-label="AnimeStatistics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeStatistics.num_list_users" class="md-nav__link">
+    num_list_users
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeStatistics.status" class="md-nav__link">
+    status
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeStatisticsStatus" class="md-nav__link">
+    AnimeStatisticsStatus
+  </a>
+  
+    <nav class="md-nav" aria-label="AnimeStatisticsStatus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeStatisticsStatus.completed" class="md-nav__link">
+    completed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeStatisticsStatus.dropped" class="md-nav__link">
+    dropped
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeStatisticsStatus.on_hold" class="md-nav__link">
+    on_hold
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeStatisticsStatus.plan_to_watch" class="md-nav__link">
+    plan_to_watch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AnimeStatisticsStatus.watching" class="md-nav__link">
+    watching
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.Author" class="md-nav__link">
+    Author
+  </a>
+  
+    <nav class="md-nav" aria-label="Author">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Author.node" class="md-nav__link">
+    node
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Author.role" class="md-nav__link">
+    role
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.AuthorName" class="md-nav__link">
+    AuthorName
+  </a>
+  
+    <nav class="md-nav" aria-label="AuthorName">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AuthorName.first_name" class="md-nav__link">
+    first_name
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AuthorName.id" class="md-nav__link">
+    id
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.AuthorName.last_name" class="md-nav__link">
+    last_name
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.BaseModel" class="md-nav__link">
+    BaseModel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.Broadcast" class="md-nav__link">
+    Broadcast
+  </a>
+  
+    <nav class="md-nav" aria-label="Broadcast">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Broadcast.day_of_the_week" class="md-nav__link">
+    day_of_the_week
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Broadcast.start_time" class="md-nav__link">
+    start_time
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.CommonModel" class="md-nav__link">
+    CommonModel
+  </a>
+  
+    <nav class="md-nav" aria-label="CommonModel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.CommonModel.id" class="md-nav__link">
+    id
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.CommonModel.name" class="md-nav__link">
+    name
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.Forum" class="md-nav__link">
+    Forum
+  </a>
+  
+    <nav class="md-nav" aria-label="Forum">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Forum.boards" class="md-nav__link">
+    boards
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Forum.title" class="md-nav__link">
+    title
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumBoard" class="md-nav__link">
+    ForumBoard
+  </a>
+  
+    <nav class="md-nav" aria-label="ForumBoard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumBoard.description" class="md-nav__link">
+    description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumBoard.id" class="md-nav__link">
+    id
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumBoard.subboards" class="md-nav__link">
+    subboards
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumBoard.title" class="md-nav__link">
+    title
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumPost" class="md-nav__link">
+    ForumPost
+  </a>
+  
+    <nav class="md-nav" aria-label="ForumPost">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumPost.body" class="md-nav__link">
+    body
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumPost.created_at" class="md-nav__link">
+    created_at
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumPost.created_by" class="md-nav__link">
+    created_by
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumPost.id" class="md-nav__link">
+    id
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumPost.number" class="md-nav__link">
+    number
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumPost.signature" class="md-nav__link">
+    signature
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumSubBoard" class="md-nav__link">
+    ForumSubBoard
+  </a>
+  
+    <nav class="md-nav" aria-label="ForumSubBoard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumSubBoard.id" class="md-nav__link">
+    id
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumSubBoard.title" class="md-nav__link">
+    title
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumTopic" class="md-nav__link">
+    ForumTopic
+  </a>
+  
+    <nav class="md-nav" aria-label="ForumTopic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumTopic.created_at" class="md-nav__link">
+    created_at
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumTopic.created_by" class="md-nav__link">
+    created_by
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumTopic.id" class="md-nav__link">
+    id
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumTopic.is_locked" class="md-nav__link">
+    is_locked
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumTopic.last_post_created_at" class="md-nav__link">
+    last_post_created_at
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumTopic.last_post_created_by" class="md-nav__link">
+    last_post_created_by
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumTopic.number_of_posts" class="md-nav__link">
+    number_of_posts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumTopic.title" class="md-nav__link">
+    title
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumTopicDetails" class="md-nav__link">
+    ForumTopicDetails
+  </a>
+  
+    <nav class="md-nav" aria-label="ForumTopicDetails">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumTopicDetails.posts" class="md-nav__link">
+    posts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.ForumTopicDetails.title" class="md-nav__link">
+    title
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.GenerateRoute" class="md-nav__link">
+    GenerateRoute
+  </a>
+  
+    <nav class="md-nav" aria-label="GenerateRoute">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.GenerateRoute.data" class="md-nav__link">
+    data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.GenerateRoute.method" class="md-nav__link">
+    method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.GenerateRoute.params" class="md-nav__link">
+    params
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.GenerateRoute.route" class="md-nav__link">
+    route
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.GenerateRoute.uri" class="md-nav__link">
+    uri
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.GenerateRoute.with_data" class="md-nav__link">
+    with_data()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.GenerateRoute.with_params" class="md-nav__link">
+    with_params()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.HttpErrorResponse" class="md-nav__link">
+    HttpErrorResponse
+  </a>
+  
+    <nav class="md-nav" aria-label="HttpErrorResponse">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.HttpErrorResponse.message" class="md-nav__link">
+    message
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.HttpErrorResponse.status" class="md-nav__link">
+    status
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.HttpSuccessResponse" class="md-nav__link">
+    HttpSuccessResponse
+  </a>
+  
+    <nav class="md-nav" aria-label="HttpSuccessResponse">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.HttpSuccessResponse.data" class="md-nav__link">
+    data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.HttpSuccessResponse.message" class="md-nav__link">
+    message
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.HttpSuccessResponse.status" class="md-nav__link">
+    status
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga" class="md-nav__link">
+    Manga
+  </a>
+  
+    <nav class="md-nav" aria-label="Manga">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.alternative_titles" class="md-nav__link">
+    alternative_titles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.authors" class="md-nav__link">
+    authors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.background" class="md-nav__link">
+    background
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.created_at" class="md-nav__link">
+    created_at
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.end_date" class="md-nav__link">
+    end_date
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.genres" class="md-nav__link">
+    genres
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.id" class="md-nav__link">
+    id
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.main_picture" class="md-nav__link">
+    main_picture
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.mean" class="md-nav__link">
+    mean
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.media_type" class="md-nav__link">
+    media_type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.nsfw" class="md-nav__link">
+    nsfw
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.num_chapters" class="md-nav__link">
+    num_chapters
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.num_list_users" class="md-nav__link">
+    num_list_users
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.num_scoring_users" class="md-nav__link">
+    num_scoring_users
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.num_volumes" class="md-nav__link">
+    num_volumes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.pictures" class="md-nav__link">
+    pictures
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.popularity" class="md-nav__link">
+    popularity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.rank" class="md-nav__link">
+    rank
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.recommendations" class="md-nav__link">
+    recommendations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.related_manga" class="md-nav__link">
+    related_manga
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.start_date" class="md-nav__link">
+    start_date
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.status" class="md-nav__link">
+    status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.synopsis" class="md-nav__link">
+    synopsis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.title" class="md-nav__link">
+    title
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Manga.updated_at" class="md-nav__link">
+    updated_at
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaList" class="md-nav__link">
+    MangaList
+  </a>
+  
+    <nav class="md-nav" aria-label="MangaList">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaList.list_status" class="md-nav__link">
+    list_status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaList.manga" class="md-nav__link">
+    manga
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListStatus" class="md-nav__link">
+    MangaListStatus
+  </a>
+  
+    <nav class="md-nav" aria-label="MangaListStatus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListStatus.finish_date" class="md-nav__link">
+    finish_date
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListStatus.is_rereading" class="md-nav__link">
+    is_rereading
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListStatus.num_chapters_read" class="md-nav__link">
+    num_chapters_read
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListStatus.num_volumes_read" class="md-nav__link">
+    num_volumes_read
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListStatus.score" class="md-nav__link">
+    score
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListStatus.start_date" class="md-nav__link">
+    start_date
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListStatus.status" class="md-nav__link">
+    status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListStatus.updated_at" class="md-nav__link">
+    updated_at
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListUpdate" class="md-nav__link">
+    MangaListUpdate
+  </a>
+  
+    <nav class="md-nav" aria-label="MangaListUpdate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListUpdate.num_chapters_read" class="md-nav__link">
+    num_chapters_read
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListUpdate.num_times_reread" class="md-nav__link">
+    num_times_reread
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListUpdate.num_volumes_read" class="md-nav__link">
+    num_volumes_read
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListUpdate.priority" class="md-nav__link">
+    priority
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListUpdate.score" class="md-nav__link">
+    score
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListUpdate.status" class="md-nav__link">
+    status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaListUpdate.updated_at" class="md-nav__link">
+    updated_at
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaRanking" class="md-nav__link">
+    MangaRanking
+  </a>
+  
+    <nav class="md-nav" aria-label="MangaRanking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaRanking.manga_data" class="md-nav__link">
+    manga_data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.MangaRanking.ranking" class="md-nav__link">
+    ranking
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.OptionalPictureModel" class="md-nav__link">
+    OptionalPictureModel
+  </a>
+  
+    <nav class="md-nav" aria-label="OptionalPictureModel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.OptionalPictureModel.large" class="md-nav__link">
+    large
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.OptionalPictureModel.medium" class="md-nav__link">
+    medium
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.PictureModel" class="md-nav__link">
+    PictureModel
+  </a>
+  
+    <nav class="md-nav" aria-label="PictureModel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.PictureModel.large" class="md-nav__link">
+    large
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.PictureModel.medium" class="md-nav__link">
+    medium
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.PostCreator" class="md-nav__link">
+    PostCreator
+  </a>
+  
+    <nav class="md-nav" aria-label="PostCreator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.PostCreator.forum_avator" class="md-nav__link">
+    forum_avator
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.PostCreator.id" class="md-nav__link">
+    id
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.PostCreator.name" class="md-nav__link">
+    name
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.RankingModel" class="md-nav__link">
+    RankingModel
+  </a>
+  
+    <nav class="md-nav" aria-label="RankingModel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.RankingModel.rank" class="md-nav__link">
+    rank
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.RecommendationModel" class="md-nav__link">
+    RecommendationModel
+  </a>
+  
+    <nav class="md-nav" aria-label="RecommendationModel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.RecommendationModel.node" class="md-nav__link">
+    node
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.RecommendationModel.num_recommendations" class="md-nav__link">
+    num_recommendations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.RelatedMaterialModel" class="md-nav__link">
+    RelatedMaterialModel
+  </a>
+  
+    <nav class="md-nav" aria-label="RelatedMaterialModel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.RelatedMaterialModel.node" class="md-nav__link">
+    node
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.RelatedMaterialModel.relation_type" class="md-nav__link">
+    relation_type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.RelatedMaterialModel.relation_type_formatted" class="md-nav__link">
+    relation_type_formatted
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.RelatedMaterialNodeModel" class="md-nav__link">
+    RelatedMaterialNodeModel
+  </a>
+  
+    <nav class="md-nav" aria-label="RelatedMaterialNodeModel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.RelatedMaterialNodeModel.id" class="md-nav__link">
+    id
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.RelatedMaterialNodeModel.main_picture" class="md-nav__link">
+    main_picture
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.RelatedMaterialNodeModel.title" class="md-nav__link">
+    title
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.Route" class="md-nav__link">
+    Route
+  </a>
+  
+    <nav class="md-nav" aria-label="Route">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Route.method" class="md-nav__link">
+    method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Route.uri" class="md-nav__link">
+    uri
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Route.generate_route" class="md-nav__link">
+    generate_route()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.Season" class="md-nav__link">
+    Season
+  </a>
+  
+    <nav class="md-nav" aria-label="Season">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Season.season" class="md-nav__link">
+    season
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Season.year" class="md-nav__link">
+    year
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.Serialization" class="md-nav__link">
+    Serialization
+  </a>
+  
+    <nav class="md-nav" aria-label="Serialization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.Serialization.node" class="md-nav__link">
+    node
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aniwrap.models.TitlesModel" class="md-nav__link">
+    TitlesModel
+  </a>
+  
+    <nav class="md-nav" aria-label="TitlesModel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.TitlesModel.en" class="md-nav__link">
+    en
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.TitlesModel.ja" class="md-nav__link">
+    ja
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aniwrap.models.TitlesModel.synonyms" class="md-nav__link">
+    synonyms
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../result/" class="md-nav__link">
+        result
       </a>
     </li>
   
@@ -262,8 +1995,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../models.md" class="md-nav__link">
-        None
+      <a href="../serializer/" class="md-nav__link">
+        serializer
       </a>
     </li>
   
@@ -276,36 +2009,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../result.md" class="md-nav__link">
-        None
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../serializer.md" class="md-nav__link">
-        None
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../services.md" class="md-nav__link">
-        None
+      <a href="../services/" class="md-nav__link">
+        services
       </a>
     </li>
   
